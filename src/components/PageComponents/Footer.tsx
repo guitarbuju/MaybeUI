@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer= () => {
   return (
-    <footer className=" min-h-28 flex justify-center bg-gray-800 text-zinc-100 rounded-lg w-full mt-4">
+    <footer className=" min-h-28 flex justify-center bg-gray-800 text-zinc-100 rounded-lg  mt-4">
       
     <div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row gap-2">  
         <h1 className="font-bowlby text-5xl text-violet-600 text-center">MaybeUI</h1>

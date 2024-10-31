@@ -1,8 +1,8 @@
 import Code from "@/components/footer/footer1/Code";
 import Preview from "@/components/footer/footer1/Preview";
-import Code2 from "@/components/footer/footer2/Code";
-import Preview2 from "@/components/footer/footer2/Preview";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import FooterCode2 from "@/components/footer/footer2/Code";
+import FooterPreview2 from "@/components/footer/footer2/Preview";
+import MyTabs from "@/components/PageComponents/Tabs";
 
 const Footer = () => {
   return (
@@ -14,36 +14,14 @@ const Footer = () => {
         <span className="-mt-6">Components</span>
       </div>
 
-      <div className="flex flex-col items-center gap-8 h-full p-2">
-        <div>
-          <Tabs defaultValue="preview" className="w-[800px] ">
-            <TabsList>
-              <TabsTrigger value="preview">Preview</TabsTrigger>
-              <TabsTrigger value="code">Code</TabsTrigger>
-            </TabsList>
-            <TabsContent value="preview">
-              <Preview />
-            </TabsContent>
-            <TabsContent value="code">
-              <Code />
-            </TabsContent>
-          </Tabs>
-        </div>
-        <div>
-          <Tabs defaultValue="preview" className="w-[800px] ">
-            <TabsList>
-              <TabsTrigger value="preview">Preview</TabsTrigger>
-              <TabsTrigger value="code">Code</TabsTrigger>
-            </TabsList>
-            <TabsContent value="preview">
-              <Preview2 />
-            </TabsContent>
-            <TabsContent value="code">
-              <Code2 />
-            </TabsContent>
-          </Tabs>
-        </div>
-      </div>
+      
+    <div className=" flex flex-col items-center gap-10 h-full sm:w-[400px] lg:w-[600px] xl:w-[900px] p-2">
+     
+     <MyTabs Preview={<Preview />} Code={<Code />} />
+     <MyTabs Preview={<FooterPreview2 />} Code={<FooterCode2 />} />
+     
+   
+ </div>
     </div>
   );
 };

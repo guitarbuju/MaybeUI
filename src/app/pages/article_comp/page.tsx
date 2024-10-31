@@ -5,7 +5,7 @@ import MyTabs from "@/components/PageComponents/Tabs";
 const ArticleComp = () => {
   return (
     <div>
-      <div className=" flex flex-col text-5xl text-white font-bold leading-snug mb-4">
+      <div className=" flex flex-col items-center text-5xl text-white font-bold leading-snug mb-4">
         <span>Article</span> <span className="-mt-6">Components</span>
       </div>
 

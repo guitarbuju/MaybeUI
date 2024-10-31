@@ -12,7 +12,7 @@ const header = () => {
       <span>Header</span> <span className="-mt-6">Components</span>
     </div>
 
-    <div className=" flex flex-col gap-10 h-full sm:w-[400px] lg:w-[600px] xl:w-[900px] p-2">
+    <div className=" flex flex-col items-start gap-10 h-full sm:w-[400px] lg:w-[600px] xl:w-[900px] p-2">
      
         <MyTabs Preview={<HeaderPreview />} Code={<HeaderCode />} />
         <MyTabs Preview={<HeaderPreview2 />} Code={<HeaderCode2 />} />

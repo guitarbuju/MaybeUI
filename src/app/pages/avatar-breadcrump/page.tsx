@@ -12,7 +12,7 @@ const avatarBreadcrump = () => {
       <span>Avatar</span> <span className="-mt-6">Breadcrumb</span>
     </div>
 
-    <div className=" flex flex-col gap-10 h-full w-full p-2">
+    <div className=" flex flex-col items-center gap-10 h-full w-full p-2">
      
         <MyTabs Preview={<Preview />} Code={<Code />} />
         <MyTabs Preview={<BreadPreview />} Code={<BreadCode />} />
