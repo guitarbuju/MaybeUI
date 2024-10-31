@@ -9,7 +9,7 @@ const ArticleComp = () => {
         <span>Article</span> <span className="-mt-6">Components</span>
       </div>
 
-      <div className="flex flex-col items-center gap-8 h-full p-2">
+      <div className="flex flex-col items-start gap-8 h-full p-2">
         <div>
           <MyTabs Preview={<Preview />} Code={<Code />} />
         </div>

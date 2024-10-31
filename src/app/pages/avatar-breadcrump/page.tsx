@@ -8,11 +8,11 @@ import BreadCode from '@/components/avatar-breadcrumb/breadcrumb/Code';
 const avatarBreadcrump = () => {
   return (
     <div>
-    <div className=" flex flex-col text-5xl text-white font-bold leading-snug mb-4">
+    <div className=" flex flex-col items-center text-5xl text-white font-bold leading-snug mb-4">
       <span>Avatar</span> <span className="-mt-6">Breadcrumb</span>
     </div>
 
-    <div className=" flex flex-col items-center gap-10 h-full w-full p-2">
+    <div className=" flex flex-col items-start gap-10 h-full w-full p-2">
      
         <MyTabs Preview={<Preview />} Code={<Code />} />
         <MyTabs Preview={<BreadPreview />} Code={<BreadCode />} />

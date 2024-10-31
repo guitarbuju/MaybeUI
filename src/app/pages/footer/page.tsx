@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
 
       
-    <div className=" flex flex-col items-center gap-10 h-full sm:w-[400px] lg:w-[600px] xl:w-[900px] p-2">
+    <div className=" flex flex-col items-start gap-10 h-full sm:w-[400px] lg:w-[600px] xl:w-[900px] p-2">
      
      <MyTabs Preview={<Preview />} Code={<Code />} />
      <MyTabs Preview={<FooterPreview2 />} Code={<FooterCode2 />} />
