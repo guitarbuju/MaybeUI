@@ -4,10 +4,10 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className='flex justify-around  align-middle gap-2 text-slate-800 font-semibold mt-3'>
-        <Link href="/">home</Link>
-        <Link href="#">about</Link>
-        <Link href="#">components</Link>
-        <Link href="#">documentation</Link>
+        <Link href="/" className='hover:underline hover:font-bold hover:text-white'>home</Link>
+        <Link href="#" className='hover:underline hover:font-bold hover:text-white'>about</Link>
+        <Link href="#" className='hover:underline hover:font-bold hover:text-white'>components</Link>
+        <Link href="#" className='hover:underline hover:font-bold hover:text-white'>documentation</Link>
     </div>
   )
 }
