@@ -2,8 +2,8 @@ import React from 'react'
 
 const Preview = () => {
   return (
-    <header className="p-4 basic dark:bg-gray-100 dark:text-gray-800">
-	<div className="container flex justify-between h-16 mx-auto">
+    <header className="min-w-[400px] p-4 basic dark:bg-gray-100 dark:text-gray-800 xl:w-[900px]">
+	<div className="container flex justify-between h-16 mx-auto w-full">
 		<ul className="items-stretch hidden space-x-3 lg:flex">
 			<li className="flex">
 				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">Link</a>
