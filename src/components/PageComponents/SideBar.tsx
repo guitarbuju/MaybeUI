@@ -5,10 +5,10 @@ import React from "react";
 
 const SideBar = () => {
   const links = getSidebarLinks();
-  console.log(links);
+  
 
   return (
-    <div className=" hidden sm:block left-0 min-h-screen mt-4 basic  p-3 space-y-2 w-60 dark:bg-gray-50 dark:text-gray-800">
+    <div className=" hidden md:block left-0 min-h-screen mt-4 basic  p-3 space-y-2 w-60 dark:bg-gray-50 dark:text-gray-800">
       <div className="flex items-center p-2 space-x-4">
         <span className="flex justify-center align-middle h-12 w-12 bg-slate-50 rounded-full">
           <span className="min-h-full mt-2 text-3xl font-bowlby font-bold text-violet-600">
