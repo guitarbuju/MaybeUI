@@ -2,8 +2,8 @@ import React from 'react'
 
 const Preview = () => {
   return (
-    <div className="px-8 py-2 bg-violet-600 dark:bg-gray-50 text-gray-900 ">
-	<div className="flex items-center mx-auto container justify-center md:justify-between py-2">
+    <div className="px-8 py-2 bg-violet-600 dark:bg-gray-50 text-gray-900 xl:w-[900px]">
+	<div className="flex items-center mx-auto container justify-center md:justify-between py-2 w-full">
 		<div>
 			<span>Get up to 50% off your first order + free shipping,&nbsp;</span>
 			<a href="#" rel="noopener noreferrer" className="underline">sign up</a>today!

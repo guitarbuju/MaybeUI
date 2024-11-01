@@ -2,8 +2,8 @@ import React from 'react'
 
 const Preview = () => {
   return (
-    <footer className="bg-gray-800 text-zinc-100 rounded-lg">
-    <div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row ">
+    <footer className="bg-gray-800 text-zinc-100 rounded-lg xl:w-[900px]">
+    <div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row w-full">
       <ul className="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
         <li>
           <a href="#">Shop</a>

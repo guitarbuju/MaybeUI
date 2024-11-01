@@ -2,8 +2,8 @@ import React from 'react'
 
 const Preview = () => {
   return (
-    <footer className="py-6 bg-gray-800 text-zinc-100 rounded-lg dark:bg-gray-100 dark:text-gray-900">
-	<div className="container px-6 mx-auto space-y-6 divide-y dark:divide-gray-600 md:space-y-12 divide-opacity-50">
+    <footer className="py-6 bg-gray-800 text-zinc-100 rounded-lg dark:bg-gray-100 dark:text-gray-900 xl:w-[900px]">
+	<div className="container px-6 mx-auto space-y-6 divide-y dark:divide-gray-600 md:space-y-12 divide-opacity-50 w-full">
 		<div className="grid grid-cols-12">
 			<div className="pb-6 col-span-full md:pb-0 md:col-span-6">
 				<a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 md:justify-start">
