@@ -4,7 +4,7 @@ import MyTabs from "@/components/PageComponents/Tabs";
 
 const Footer = () => {
   return (
-    <div>
+    <div >
       <div className=" flex flex-col text-5xl text-white font-bold leading-snug mb-4">
         <span >
           Form
@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
 
       
-    <div className=" flex flex-col items-start gap-10 h-full sm:w-[400px] lg:w-[600px] xl:w-[900px] p-2">
+    <div className=" flex flex-col items-start gap-10 h-full sm:w-[400px] md:w-[800px] lg:w-full p-2">
      
      <MyTabs Preview={<Preview />} Code={<Code />} />
      

@@ -12,7 +12,7 @@ const avatarBreadcrump = () => {
       <span>Banner</span> <span className="-mt-6">Components</span>
     </div>
 
-    <div className=" flex flex-col items-start gap-10 h-full w-[400px] lg:w-[600px] xl:w-[900px] p-2">
+    <div className=" flex flex-col items-start gap-10 h-full w-[600px] md:w-[800px] lg:w-[1000px] p-2">
      
         <MyTabs Preview={<Preview />} Code={<Code />} />
         <MyTabs Preview={<BannerPreview />} Code={<BannerCode />} />

@@ -37,9 +37,9 @@ export default function RootLayout({
           <main className="w-full flex-grow bg-gray-900 ">
             <Header />
            <TopBar />
-            <div className=" w-full flex gap-4 min-h-screen lg:mt-20">
+            <div className=" w-full flex gap-4 min-h-screen md:mt-20">
               <SideBar /> 
-              <div className="sm:ml-20 mt-12 sm:mt-16">{children}</div>
+              <div className=" flex flex-col justify-center items-center mt-12 sm:mt-16">{children}</div>
             </div>
             <Footer />
           </main>

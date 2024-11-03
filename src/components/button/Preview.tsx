@@ -2,8 +2,8 @@ import React from "react";
 
 const Preview = () => {
   return (
-    <div className="flex flex-col gap-4  max-h-full p-6">
-      <div className="grid grid-cols-2 lg:flex lg:flex-row gap-6">
+    <div className="flex flex-col gap-4  max-h-full ">
+      <div className="grid grid-cols-2 md:flex lg:flex-row gap-6">
         <button
           type="button"
           className="px-8 py-3 font-semibold rounded bg-gray-800 text-gray-100 hover:font-bold hover:bg-gray-700"
@@ -53,7 +53,7 @@ const Preview = () => {
           Rounded
         </button>
       </div>{" "}
-      <div className="grid grid-cols-2 lg:flex lg:flex-row gap-6">
+      <div className="grid grid-cols-2 md:flex md:flex-row gap-6">
         <button
           type="button"
           className=" rounded bg-destructive px-8 py-3   font-semibold   text-white shadow-primary transition duration-150 ease-in-out hover:bg-yellow-400 hover:shadow-primary-2 hover:text-gray-900 "

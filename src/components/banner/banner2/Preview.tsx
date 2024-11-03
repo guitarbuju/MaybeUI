@@ -2,7 +2,7 @@ import React from 'react'
 
 const Preview = () => {
   return (
-    <div className="p-6 py-12 bg-violet-600 text-gray-900 xl:w-[900px]">
+    <div className="w-full p-6 py-12 bg-violet-600 text-gray-900 ">
 	<div className="container mx-auto w-full">
 		<div className="flex flex-col lg:flex-row items-center justify-between">
 			<h2 className="text-center text-6xl tracking-tighter font-bold">Up to
