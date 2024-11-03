@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/PageComponents/Header";
 import Footer from "@/components/PageComponents/Footer";
 import SideBar from "@/components/PageComponents/SideBar";
+import TopBar from "@/components/PageComponents/Topbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,13 +36,10 @@ export default function RootLayout({
         <div className="w-full min-h-screen ">
           <main className="w-full flex-grow bg-gray-900 ">
             <Header />
-
-            <div className=" w-full flex gap-4 min-h-screen mt-20">
-              <SideBar />
-              <div className="sm:ml-20 mt-12 sm:mt-16">
-                {children}
-              </div>
-              
+           <TopBar />
+            <div className=" w-full flex gap-4 min-h-screen lg:mt-20">
+              <SideBar /> 
+              <div className="sm:ml-20 mt-12 sm:mt-16">{children}</div>
             </div>
             <Footer />
           </main>
