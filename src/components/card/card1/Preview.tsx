@@ -146,7 +146,7 @@ const Preview = () => {
             </div>
             <button
               type="button"
-              className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-violet-600 text-gray-50"
+              className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-violet-600 hover:bg-violet-400  text-gray-50"
             >
               Read more
             </button>
