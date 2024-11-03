@@ -1,6 +1,6 @@
 import { getSidebarLinks } from "@/lib/getSidebarLinks";
 import Link from "next/link";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { Button} from "@/components/ui/button";
 import React from "react";
 
 const SideBar = () => {
@@ -27,8 +27,8 @@ const SideBar = () => {
       </div>
       <div className="divide-y dark:divide-gray-300">
         <ul className="pt-2 pb-4 space-y-1 text-sm">
-          {links.map((link) => (
-            <li className="h-6 dark:bg-gray-100 dark:text-gray-900">
+          {links.map((link,index) => (
+            <li key={index} className="h-6 dark:bg-gray-100 dark:text-gray-900">
               <Button variant="link">
                 <Link href={link.path}>{link.name}</Link>
               </Button>
