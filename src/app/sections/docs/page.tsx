@@ -8,7 +8,7 @@ function page() {
         <h1 className="text-xl text-violet-400 underline font-semibold">Overview:</h1>
         <p>
           MAYBEUI is a straightforward application designed to provide
-          ready-to-use, customizable UI components for developers working with
+          ready-to-use, React js customizable UI components for developers working with
           Next.js, Tailwind CSS, ShadCN, and Mamba UI. Each component is wrapped
           in a ShadCN Tabs component, allowing users to easily toggle between a
           live preview of the component and the underlying code, which can be
