@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Overview:
+MAYBEUI is a straightforward application designed to provide ready-to-use, customizable UI components for developers working with Next.js, Tailwind CSS, ShadCN, and Mamba UI. Each component is wrapped in a ShadCN Tabs component, allowing users to easily toggle between a live preview of the component and the underlying code, which can be copied and adapted as needed.
 
-## Getting Started
+Features:
+Preview & Copy Code: Each UI component is displayed within a ShadCN Tabs component. The tabs let users switch seamlessly between the Preview tab to see the component in action, and the Code tab, where users can view, select, and copy the code to customize and integrate into their own projects.
 
-First, run the development server:
+Responsive Sidebar Navigation: Desktop View: The app features a sidebar with a navbar that includes links to each component category, enabling easy access to various UI elements.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Mobile & Small Screens: On mobile and smaller screens, the sidebar transforms into a top bar, ensuring a responsive and accessible navigation experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tech Stacks:
+Next.js: The foundation of the app, providing server-side rendering, routing, and fast performance.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tailwind CSS: Used for rapid and efficient styling, giving the app a consistent and customizable look and feel.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ShadCN: Implements the tabs for each component, providing a simple and user-friendly way to view and copy component code.
 
-## Learn More
+Mamba UI: Supplies the base styles and structure for various components, ensuring they are easy to integrate and visually appealing.
 
-To learn more about Next.js, take a look at the following resources:
+Usage:
+Browsing Components: Navigate through the sidebar (or top bar on smaller screens) to access different UI components.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Preview & Code Tabs: Click on any component to open its dedicated tab view, where you can toggle between the Preview and Code tabs.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Copying Code: In the Code tab, simply select and copy the code snippet to use and customize within your own project.
 
-## Deploy on Vercel
+Responsive Design:
+The app's sidebar navigation automatically adapts to the screen size, making it accessible on both desktop and mobile devices.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+On desktops, the sidebar displays on the left of the screen.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+On mobile devices or narrow screens, the sidebar converts into a top bar, maintaining navigation functionality and keeping the UI compact.
