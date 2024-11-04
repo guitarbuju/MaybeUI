@@ -6,7 +6,7 @@ import TailwindLogo from "../../public/tailwindWhite.png"
 export default function Home() {
   return (
   <>
-   <section className="rounded-lg h-auto max-w-[1000px] mt-12 sm:mt-16  bg-gray-800 text-zinc-100  dark:bg-gray-100 dark:text-gray-800">
+   <section className="rounded-lg md:-mt-40 max-w-[1000px]  bg-gray-800 text-zinc-100  dark:bg-gray-100 dark:text-gray-800">
 	<div className="container flex flex-col justify-center lg:flex-row lg:justify-between">
 		<div className="flex items-center justify-center  p-6 ">
 			<Image src={Business} alt="" className="object-contain w-full h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />

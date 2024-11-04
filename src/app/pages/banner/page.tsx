@@ -5,9 +5,9 @@ import Code from '@/components/banner/banner1/Code';
 import BannerPreview from '@/components/banner/banner2/Preview';
 import BannerCode from '@/components/banner/banner2/Code';
 
-const avatarBreadcrump = () => {
+const Banner = () => {
   return (
-    <div className='w-[900px]'>
+    <div className=''>
     <div className=" flex flex-col items-start text-5xl text-white font-bold leading-snug mb-4 ">
       <span>Banner</span> <span className="-mt-6">Components</span>
     </div>
@@ -22,4 +22,4 @@ const avatarBreadcrump = () => {
   )
 }
 
-export default avatarBreadcrump
+export default Banner

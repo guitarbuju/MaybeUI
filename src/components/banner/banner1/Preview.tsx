@@ -2,8 +2,8 @@ import React from 'react'
 
 const Preview = () => {
   return (
-    <div className="w-full px-8 py-2 bg-violet-600 dark:bg-gray-50 text-gray-900 ">
-	<div className="flex items-center mx-auto container justify-center md:justify-between py-2 w-full">
+   
+	<div className="w-[320px] md:w-[600px] lg:w-[800px] xl:w-[1000px] flex flex-wrap mx-auto container justify-center  md:justify-between py-2 md-w-full  bg-violet-600 text-gray-900">
 		<div>
 			<span>Get up to 50% off your first order + free shipping,&nbsp;</span>
 			<a href="#" rel="noopener noreferrer" className="underline">sign up</a>today!
@@ -15,7 +15,7 @@ const Preview = () => {
 			<span className="hover:underline focus-visible:underline">Gift Cards</span>
 		</a>
 	</div>
-</div>
+
   )
 }
 

@@ -26,9 +26,9 @@ const SideBar = () => {
         </div>
       </div>
       <div className="divide-y dark:divide-gray-300">
-        <ul className="pt-2 pb-4 space-y-1 text-sm">
+        <ul className="pt-2 pb-4 space-y-1 text-sm justify-center">
           {links.map((link,index) => (
-            <li key={index} className="h-6 dark:bg-gray-100 dark:text-gray-900">
+            <li key={index} className="h-6 dark:bg-gray-100 dark:text-gray-900 ">
               <Button variant="link">
                 <Link href={link.path}>{link.name}</Link>
               </Button>
