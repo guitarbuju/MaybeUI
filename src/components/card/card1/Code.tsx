@@ -8,7 +8,7 @@ const Code = () => {
       <pre>
         <code>
           {` {/* /////////Card 1 */}
-      <div className=" flex flex-col lg:flex-row gap-6 lg:justify-around ">
+      <div className=" flex flex-col md:grid md:grid-cols-3 lg:flex-row gap-6 lg:justify-around ">
         <div className="p-2    bg-gray-600 flex justify-center">
           <div className="max-w-xs p-6 rounded-md shadow-md bg-gray-900 text-gray-50">
             <img
@@ -150,14 +150,15 @@ const Code = () => {
             </div>
             <button
               type="button"
-              className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-violet-600 text-gray-50"
+              className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-violet-600 hover:bg-violet-400  text-gray-50"
             >
               Read more
             </button>
           </div>
         </div>
         </div>
-      </div>>
+      </div>
+    </>
       `}
         </code>
       </pre>

@@ -7,8 +7,8 @@ const Code = () => {
         <pre>
           <code>
             {`
- <div className="flex flex-col gap-4">
-      <div className="flex justify-around gap-6">
+ <div className="flex flex-col gap-4  max-h-full ">
+      <div className="grid grid-cols-2 md:flex lg:flex-row gap-6">
         <button
           type="button"
           className="px-8 py-3 font-semibold rounded bg-gray-800 text-gray-100 hover:font-bold hover:bg-gray-700"
@@ -58,7 +58,7 @@ const Code = () => {
           Rounded
         </button>
       </div>{" "}
-      <div className="flex gap-6">
+      <div className="grid grid-cols-2 md:flex md:flex-row gap-6">
         <button
           type="button"
           className=" rounded bg-destructive px-8 py-3   font-semibold   text-white shadow-primary transition duration-150 ease-in-out hover:bg-yellow-400 hover:shadow-primary-2 hover:text-gray-900 "
@@ -89,7 +89,11 @@ const Code = () => {
         >
           Danger
         </button>
-       
+        <button
+  type="button"
+  className="inline-block rounded border border-fuchsia-500 px-6 pb-2 pt-2.5 font-semibold leading-normal text-fuchsia-500 shadow-primary-3 transition duration-150 ease-in-out hover:bg-fuchsia-400 hover:shadow-primary-2 hover:text-gray-900 ">
+  Lovely
+</button>
       </div>
     </div>
       `}

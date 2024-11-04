@@ -8,7 +8,7 @@ const Code = () => {
       <pre>
         <code>
           {`
-<section className="py-6 bg-gray-900 text-gray-50">
+ <section className="py-6 bg-gray-900 text-gray-50">
 	<div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
 		<Image width={200} height={200}   style={{ objectFit: 'cover' }} alt='' className=" rounded-lg w-full h-full col-span-2 row-span-2  shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square" src="https://images.unsplash.com/photo-1597233709017-e4a73325d37b" />
 		<Image width={200} height={200}   style={{ objectFit: 'cover' }}alt="" className=" rounded-lg w-full h-full   shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://images.unsplash.com/photo-1600481176431-47ad2ab2745d" />

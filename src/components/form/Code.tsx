@@ -7,7 +7,7 @@ const Code = () => {
         <pre>
           <code>
             {`
-  <section className="p-6 bg-gray-600 text-gray-50">
+  <section className=" p-6 bg-gray-600 text-gray-50">
 	<form  action="" className="container bg-gray-900 rounded-md flex flex-col mx-auto space-y-12">
 		<fieldset className="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm dark:bg-gray-50">
 			<div className="space-y-2 col-span-full lg:col-span-1">

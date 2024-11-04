@@ -54,7 +54,6 @@ const Code = () => {
 		<button type="button" className="w-full px-8 py-3 font-semibold rounded-md bg-violet-600 hover:bg-violet-400 text-gray-50">Sign in</button>
 	</form>
 </div>
-  )
       `}
           </code>
         </pre>

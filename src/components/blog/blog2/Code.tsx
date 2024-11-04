@@ -7,10 +7,10 @@ const Code = () => {
         <pre>
           <code>
             {`
-  <div className=" flex flex-col w-2/4 max-w-2xl rounded-lg p-6 divide-y lg:w-full xl:flex-row xl:divide-y-0 xl:divide-x bg-gray-800 text-gray-50 divide-gray-300">
+    <div className=" flex flex-col w-2/4 max-w-2xl rounded-lg p-6 divide-y lg:w-full xl:flex-row xl:divide-y-0 xl:divide-x bg-gray-800 text-gray-50 divide-gray-300">
 	<div className="p-3 space-y-1">
 		<h3 className="text-3xl font-semibold">Lorem ipsum dolor sit amet</h3>
-		<p className="text-sm dark:text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam possimus repellat incidunt odit eligendi mollitia quaerat autem nobis fugiat natus?</p>
+		<p className="text-sm text-gray-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam possimus repellat incidunt odit eligendi mollitia quaerat autem nobis fugiat natus?</p>
 	</div>
 	<div className="flex items-center gap-3 p-3">
 		<Image alt="" src={World} className="object-cover w-12 h-12 bg-white rounded-full shadow" />
