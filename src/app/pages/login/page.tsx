@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
 
       
-    <div className=" grid grid-cols-1 lg:grid-cols-2 items-start gap-10 h-full sm:w-[400px] lg:w-[600px] xl:w-[900px] p-2">
+    <div className=" grid grid-cols-1 lg:grid-cols-2 items-start gap-4 min-h-screen sm:w-[400px] lg:w-[600px] xl:w-[900px] p-2">
      
      <MyTabs Preview={<Preview />} Code={<Code />} />
      <MyTabs Preview={<LoginPreview2 />} Code={<LoginCode2 />} />
