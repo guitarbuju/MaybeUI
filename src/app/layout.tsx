@@ -36,11 +36,16 @@ export default function RootLayout({
         <div className="w-full min-h-screen ">
           <main className="w-full flex-grow bg-gray-900 ">
             <Header />
-           <TopBar />
-            <div className=" w-full flex gap-4 min-h-screen md:mt-20">
-              <SideBar /> 
-              <div className=" flex flex-col justify-center items-center mt-12 sm:mt-16">{children}</div>
+            <TopBar />
+            <div className="w-full flex flex-col md:grid md:grid-cols-[250px_1fr] min-h-screen md:mt-20">
+              <div className="h-full hidden md:flex">
+                <SideBar />
+              </div>
+              <div className="flex flex-col justify-center items-center">
+                {children}
+              </div>
             </div>
+
             <Footer />
           </main>
         </div>

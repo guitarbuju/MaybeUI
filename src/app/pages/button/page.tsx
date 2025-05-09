@@ -6,7 +6,7 @@ import Code from '@/components/button/Code';
 
 const buttonPage = () => {
   return (
-    <div className='w-[900px]'>
+    <div >
     <div className=" flex flex-col items-start text-5xl text-white font-bold leading-snug mb-4 ">
       <span>Buttons</span> <span className="-mt-6">Components</span>
     </div>

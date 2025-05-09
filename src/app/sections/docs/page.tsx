@@ -2,10 +2,10 @@ import React from "react";
 
 function page() {
   return (
-    <div className="text-gray-50 p-4 w-3/4">
-      <h1 className="text-2xl mb-4 text-violet-400 font-bold underline">Docs:</h1>
+    <div className="text-gray-50 p-4 w-1/2 sm:w-3/4">
+      <h1 className="textxl sm:text-2xl mb-4 text-violet-400 font-bold underline">Docs:</h1>
       <div className="flex flex-col gap-4">
-        <h1 className="text-xl text-violet-400 underline font-semibold">Overview:</h1>
+        <h1 className="text-lg sm:text-xl text-violet-400 underline font-semibold">Overview:</h1>
         <p>
           MAYBEUI is a straightforward application designed to provide
           ready-to-use, React js customizable UI components for developers working with
@@ -14,7 +14,7 @@ function page() {
           live preview of the component and the underlying code, which can be
           copied and adapted as needed.
         </p>
-        <h1 className="text-xl text-violet-400 underline font-semibold">Features:</h1>
+        <h1 className="text-lg sm:text-xl text-violet-400 underline font-semibold">Features:</h1>
         <ul className="list-disc">
           <li>
             <p>
@@ -40,7 +40,7 @@ function page() {
             </p>
           </li>
         </ul>
-        <h1 className="text-xl text-violet-400 underline font-semibold">Tech Stacks:</h1>
+        <h1 className="text-lg sm:text-xl text-violet-400 underline font-semibold">Tech Stacks:</h1>
         <ul className="list-disc">
           <li>
             <p>
@@ -68,7 +68,7 @@ function page() {
             </p>
           </li>
         </ul>
-        <h1 className="text-xl text-violet-400 underline font-semibold">Usage:</h1>
+        <h1 className="text-lg sm:text-xl text-violet-400 underline font-semibold">Usage:</h1>
         <ol className="list-decimal">
           <li>
             <p>
@@ -89,7 +89,7 @@ function page() {
             </p>
           </li>
         </ol>
-        <h1 className="text-xl text-violet-400 underline font-semibold">Responsive Design:</h1>
+        <h1 className="text-lg sm:text-xl text-violet-400 underline font-semibold">Responsive Design:</h1>
         <ol className="list-decimal">
           <li>
             <p>

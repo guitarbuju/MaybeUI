@@ -10,7 +10,7 @@ const TopBar = () => {
        
 
   return (
-   <div className=" lg:hidden w-full mt-32 md:mt-20 flex justify-center flex-wrap bg-gray-700 text-gray-50 p-4">
+   <div className=" lg:hidden w-full mt-28 md:mt-20 flex justify-center flex-wrap bg-gray-700 text-gray-50 p-4">
    {links.map((link, index) => (
      <div
        key={index}

@@ -8,7 +8,7 @@ import Blog2Code from '@/components/blog/blog2/Code';
 
 const buttonPage = () => {
   return (
-    <div className='w-[1000px]'>
+    <div className=''>
     <div className=" flex flex-col items-start text-5xl text-white font-bold leading-snug mb-4 ">
       <span>Blog</span> <span className="-mt-6">Components</span>
     </div>

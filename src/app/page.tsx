@@ -7,9 +7,9 @@ export default function Home() {
   return (
   <>
    <section className="rounded-lg md:-mt-40 max-w-[1000px]  bg-gray-800 text-zinc-100  dark:bg-gray-100 dark:text-gray-800">
-	<div className="container flex flex-col justify-center lg:flex-row lg:justify-between">
-		<div className="flex items-center justify-center  p-6 ">
-			<Image src={Business} alt="" className="object-contain w-full h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
+	<div className="container flex flex-col justify-center items-center lg:flex-row lg:justify-around">
+		<div className="flex items-center justify-center  ">
+			<Image src={Business} alt="" className="object-contain w-72 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
 		</div>
 		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:text-left">
 			<h1 className="text-4xl font-bold leading-none sm:text-6xl">Welcome to 

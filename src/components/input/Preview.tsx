@@ -55,7 +55,7 @@ const Preview = () => {
             type="file"
             name="files"
             id="files"
-            className="px-8 py-12 border-2 border-dashed rounded-md dark:border-gray-300 text-gray-50 dark:bg-gray-100"
+            className="px-4 py-6  w-[95%] md:w-full border-2 border-dashed rounded-md dark:border-gray-300 text-gray-50 dark:bg-gray-100"
           />
         </div>
       </fieldset>
