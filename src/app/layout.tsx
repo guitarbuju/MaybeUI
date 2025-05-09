@@ -37,7 +37,7 @@ export default function RootLayout({
           <main className="w-full flex-grow bg-gray-900 ">
             <Header />
             <TopBar />
-            <div className="w-full flex flex-col md:grid md:grid-cols-[250px_1fr] min-h-screen md:mt-20">
+            <div className="w-full flex flex-col items-center  lg:grid lg:grid-cols-[250px_1fr] min-h-screen md:mt-20">
               <div className="h-full hidden md:flex">
                 <SideBar />
               </div>
